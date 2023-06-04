@@ -163,7 +163,7 @@ in memory but hooking functions that the game uses to load the data. It may or m
 ```
 
 ## Root access
-Unforutnately looks like CAPCOM and/or wine/Proton are protecting memory, hence this requires `sudo` access when running.
+Can be be necessay depending on your distro, Arch and Fedora do not seems to need Sudo but Ubuntu does
 
 ## How to build
 You need to have `libncursesw5-dev` installed to compile (on Ubuntu is `sudo apt install libncursesw5-dev`) and that's it.
